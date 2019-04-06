@@ -1,0 +1,33 @@
+/*!
+Theme Name: gh-kolomiiets
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: gh-kolomiiets
+
+*/
+/* ------------------------- Section: Susy settings -------------------------- */
+//@import "layout/grids";
+/* ------------------------- Section: Reset ---------------------------------- */
+@import "compass/reset";
+/* ------------------------- Part: Content ----------------------------------- */
+@import "layout/content";
+/* ------------------------- Section: Header --------------------------------- */
+@import "layout/header",
+
+  /* ----------------- Section: Footer --------------------------------- */
+"layout/footer",
+  /* ----------------- Sidebar ----------------------------------------- */
+"layout/sidebar";
+/* ------------------------- Page: Social Media ------------------------------ */
+@import "pages/page-home",
+"pages/front-page",
+  /* ----------------- Page: Projects ----------------------------------- */
+  /* ----------------- Page: AUTHOR BLOG ------------------------------- */
+"pages/page-blog";
+/* ------------------------- Part: Single ------------------------------------ */
+@import "layout/single";
+/* ------------------------ Components: Project-lightbox --------------------- */

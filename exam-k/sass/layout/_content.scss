@@ -1,0 +1,28 @@
+
+
+body, html {
+  font-family: 'Open Sans', sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+:focus {
+  outline: none;
+}
+
+:link,
+:visited {
+  text-decoration: none;
+  color: #6797A2;
+}
+
+:link:hover,
+:visited:hover {
+  color: red;
+}
+.content_center {
+  max-width: 1800px;
+  width: 100%;
+  margin: auto;
+}

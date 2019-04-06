@@ -1,0 +1,19 @@
+.blog_post{
+  max-width: 320px;
+  text-align: center;
+  margin: 10px;
+  h2{
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+  p{
+    width: 320px;
+  }
+}
+.flex_blog_p{
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
