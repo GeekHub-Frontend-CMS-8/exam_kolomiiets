@@ -15,18 +15,16 @@ Text Domain: gh-kolomiiets
 @import "compass/reset";
 /* ------------------------- Part: Content ----------------------------------- */
 @import "layout/content";
-/* ------------------------- Section: Header --------------------------------- */
+
 @import "layout/header",
 
-  /* ----------------- Section: Footer --------------------------------- */
 "layout/footer",
-  /* ----------------- Sidebar ----------------------------------------- */
+
 "layout/sidebar";
-/* ------------------------- Page: Social Media ------------------------------ */
-@import "pages/page-home",
-"pages/front-page",
-  /* ----------------- Page: Projects ----------------------------------- */
-  /* ----------------- Page: AUTHOR BLOG ------------------------------- */
+
+@import "pages/page-home", "pages/front-page", "pages/page-contact",
+
+
 "pages/page-blog";
 /* ------------------------- Part: Single ------------------------------------ */
 @import "layout/single";
